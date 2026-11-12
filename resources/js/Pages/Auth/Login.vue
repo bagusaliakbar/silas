@@ -392,7 +392,7 @@ const submit = () => {
                                 :class="{ 'field-3d-active': focusedField === 'login' }"
                             >
                                 <div class="flex items-center justify-between">
-                                    <InputLabel for="login" value="NPM / NIP / Username" class="text-xs font-bold" />
+                                    <InputLabel for="login" value="NPM / NIDN / Username" class="text-xs font-bold" />
                                     <span
                                         v-if="focusedField === 'login' && form.login.length > 0"
                                         class="text-[10px] font-mono font-semibold text-blue-600 dark:text-blue-400"
@@ -401,7 +401,7 @@ const submit = () => {
                                     </span>
                                 </div>
                                 <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                                    Mahasiswa gunakan NPM, Dosen & Staf gunakan Username / NIP
+                                    Mahasiswa gunakan NPM, Dosen & Staf gunakan Username / NIDN
                                 </p>
                                 <div class="relative mt-1">
                                     <div
@@ -433,16 +433,6 @@ const submit = () => {
                                 class="field-3d-layer rounded-2xl transition-all duration-300"
                                 :class="{ 'field-3d-active-indigo': focusedField === 'password' }"
                             >
-                                <div class="flex items-center justify-between">
-                                    <InputLabel for="password" value="Kata Sandi" class="text-xs font-bold" />
-                                    <Link
-                                        v-if="canResetPassword"
-                                        :href="route('password.request')"
-                                        class="text-[11px] text-blue-600 hover:text-blue-700 dark:text-blue-400 font-semibold transition"
-                                    >
-                                        Lupa kata sandi?
-                                    </Link>
-                                </div>
                                 <div class="relative mt-1">
                                     <div
                                         class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none transition-colors duration-200"
