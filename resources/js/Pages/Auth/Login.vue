@@ -433,8 +433,10 @@ const submit = () => {
                                 class="field-3d-layer rounded-2xl transition-all duration-300"
                                 :class="{ 'field-3d-active-indigo': focusedField === 'password' }"
                             >
-                                <div class="relative mt-1">
+                                <div class="flex items-center justify-between">
                                     <InputLabel for="password" value="Kata Sandi" class="text-xs font-bold" />
+                                </div>
+                                <div class="relative mt-1">
                                     <div
                                         class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none transition-colors duration-200"
                                         :class="focusedField === 'password' ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-400'"
