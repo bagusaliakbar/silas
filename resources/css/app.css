@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input::placeholder,
+    textarea::placeholder {
+        color: #94a3b8 !important; /* Tailwind slate-400 */
+        opacity: 0.8 !important;
+        font-weight: 400 !important;
+    }
+    .dark input::placeholder,
+    .dark textarea::placeholder {
+        color: #64748b !important; /* Tailwind slate-500 */
+        opacity: 0.8 !important;
+    }
+
+    /* Fix browser autofill / saved credentials background in dark mode */
+    .dark input:-webkit-autofill,
+    .dark input:-webkit-autofill:hover,
+    .dark input:-webkit-autofill:focus,
+    .dark input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 1000px #020617 inset !important; /* slate-950 */
+        -webkit-text-fill-color: #f8fafc !important; /* slate-50 */
+        caret-color: #f8fafc !important;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}

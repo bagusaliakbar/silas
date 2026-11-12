@@ -1,0 +1,18 @@
+kode_mk,nama_mk,sks,semester,program_studi,keterangan
+SI-101,Pengantar Teknologi Informasi,2,1,Sistem Informasi,Mata kuliah dasar keilmuan TI
+SI-102,Algoritma dan Pemrograman,3,1,Sistem Informasi,Praktikum dan logika pemrograman dasar
+SI-103,Matematika Diskrit,3,1,Sistem Informasi,Logika matematika dan graf
+SI-201,Struktur Data,3,2,Sistem Informasi,Prasyarat Algoritma dan Pemrograman
+SI-202,Basis Data I,3,2,Sistem Informasi,Dasar sistem basis data dan SQL
+SI-203,Pemrograman Berorientasi Objek,3,2,Sistem Informasi,Konsep OOP
+SI-301,Rekayasa Perangkat Lunak,3,3,Sistem Informasi,Metodologi SDLC dan perancangan
+SI-302,Jaringan Komputer,3,3,Sistem Informasi,Protokol TCP/IP dan topologi
+SI-303,Desain Antarmuka Pengguna (UI/UX),3,3,Sistem Informasi,Desain prototype Figma dan wireframing
+SI-401,Analisis dan Perancangan Sistem Informasi,4,4,Sistem Informasi,UML dan pemodelan bisnis
+SI-402,Keamanan Sistem Informasi,3,4,Sistem Informasi,Keamanan informasi dan kriptografi
+SI-501,Tata Kelola dan Audit Sistem Informasi,3,5,Sistem Informasi,Framework COBIT dan ITIL
+SI-502,Manajemen Proyek TI,3,5,Sistem Informasi,Perencanaan dan estimasi proyek TI
+SI-601,Kerja Praktek (PKL),3,6,Sistem Informasi,Magang industri
+SI-701,Seminar Usulan Penelitian,2,7,Sistem Informasi,Penyusunan proposal skripsi
+SI-801,Skripsi / Tugas Akhir,6,8,Sistem Informasi,Karya ilmiah akhir sarjana
+
